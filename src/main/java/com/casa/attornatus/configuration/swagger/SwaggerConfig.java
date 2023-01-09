@@ -1,4 +1,4 @@
-package com.casa.dio.configuration.swagger;
+package com.casa.attornatus.configuration.swagger;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -16,6 +16,8 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
+ * @see <a href="http://localhost:8080/h2-console/">Banco H2</a>
+ * @see <a href="https://github.com/Joelson0935/Attornatus-Teste">GitHub do Projeto</a>
  * @see <a href="http://localhost:8080/swagger-ui/index.html">Swagger</a>
  * @author JOELSON
  */
@@ -44,7 +46,7 @@ public class SwaggerConfig {
 	@Bean
 	Docket detalheApi() {
 		Docket docket = new Docket(DocumentationType.SWAGGER_2);
-		docket.select().apis(RequestHandlerSelectors.basePackage("com.casa.dio.controller"))
+		docket.select().apis(RequestHandlerSelectors.basePackage("com.casa.attornatus.controller"))
 				.paths(PathSelectors.any()).build().apiInfo(this.informacoesApi().build())
 				.consumes(new HashSet<String>(Arrays.asList("application/json")))
 				.produces(new HashSet<String>(Arrays.asList("application/json")));

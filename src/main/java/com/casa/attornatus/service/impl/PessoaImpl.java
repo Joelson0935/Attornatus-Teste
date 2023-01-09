@@ -1,14 +1,14 @@
-package com.casa.dio.service.impl;
+package com.casa.attornatus.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.casa.dio.model.Endereco;
-import com.casa.dio.model.Pessoa;
-import com.casa.dio.repository.EnderecoRepository;
-import com.casa.dio.repository.PessoaRepository;
-import com.casa.dio.service.Services;
-import com.casa.dio.service.ViaCepService;
+import com.casa.attornatus.model.Endereco;
+import com.casa.attornatus.model.Pessoa;
+import com.casa.attornatus.repository.EnderecoRepository;
+import com.casa.attornatus.repository.PessoaRepository;
+import com.casa.attornatus.service.Services;
+import com.casa.attornatus.service.ViaCepService;
 
 @Service
 public class PessoaImpl implements Services<Pessoa> {

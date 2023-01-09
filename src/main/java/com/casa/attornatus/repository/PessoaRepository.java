@@ -1,9 +1,9 @@
-package com.casa.dio.repository;
+package com.casa.attornatus.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.casa.dio.model.Pessoa;
+import com.casa.attornatus.model.Pessoa;
 
 @Repository
 public interface PessoaRepository extends JpaRepository<Pessoa, Long> {

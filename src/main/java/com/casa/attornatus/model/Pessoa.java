@@ -1,4 +1,4 @@
-package com.casa.dio.model;
+package com.casa.attornatus.model;
 
 import java.time.LocalDate;
 import java.util.Objects;

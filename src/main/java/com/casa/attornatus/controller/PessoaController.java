@@ -1,4 +1,4 @@
-package com.casa.dio.controller;
+package com.casa.attornatus.controller;
 
 import javax.validation.Valid;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.casa.dio.model.Pessoa;
-import com.casa.dio.service.Services;
+import com.casa.attornatus.model.Pessoa;
+import com.casa.attornatus.service.Services;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 

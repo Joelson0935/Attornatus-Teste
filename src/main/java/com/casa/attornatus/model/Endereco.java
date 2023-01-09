@@ -1,4 +1,4 @@
-package com.casa.dio.model;
+package com.casa.attornatus.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

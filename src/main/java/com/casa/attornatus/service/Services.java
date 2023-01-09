@@ -1,4 +1,4 @@
-package com.casa.dio.service;
+package com.casa.attornatus.service;
 
 public interface Services<E> {
 
